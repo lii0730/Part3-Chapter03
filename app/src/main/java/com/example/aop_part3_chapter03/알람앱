@@ -1,0 +1,25 @@
+<알람앱 만들기>
+
+1. AlarmManager 사용하기
+2. Notification 사용하기 (firebase, 파트3 챕터1 복습)
+3. Broadcast Receiver 사용하기
+
+- BackGround 작업
+1. Immediate tasks (즉시 실행해야 하는 작업)
+  * Thread
+  * Handler
+  * Kotlin coroutines
+
+2. Deferred tasks (지연된 작업)
+  * WorkManager
+
+3. Exact tasks (정시에 실행해야 하는 작업)
+  * AlarmManager
+
+<AlarmManager>
+- realTime으로 실행시키는 작업
+- Elapsed Time (기기가 부팅된지부터 얼마나 지났는지)로 실행시키는 방법
+
+<기능>
+1. 지정된 시간에 알람이 울리게 할 수 있음
+2. 지정된 시간 이후에는 매일 같은 시간에 반복되게 알람이 울리게 할 수 있음.

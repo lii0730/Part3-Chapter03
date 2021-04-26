@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AOP-Part3-Chapter03</string>
+    <string name="changeButtonText">시간 재설정</string>
+    <string name="onAlarmText">알람 켜기</string>
 </resources>

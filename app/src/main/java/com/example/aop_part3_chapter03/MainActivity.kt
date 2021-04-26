@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         val model = AlarmDisplayModel(
                 hour = hour,
                 minute = minute,
-                onOff = false
+                onOff = onOff
         )
 
         val sharedPreferences = getSharedPreferences("time", MODE_PRIVATE)
